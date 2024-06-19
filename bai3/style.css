@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.shape .square{
+    width: 100px;
+    height: 100px;
+    transition: all 0.3s ease;
+    background-color: cyan;
+}
+
+.shape .square:hover{
+    background-color: darkcyan;
+}
+
+.shape .rounded-square{
+    width: 100px;
+    height: 100px;
+    transition: all 0.3s ease;
+    background-color: peru;
+    border-radius: 20%;
+}
+
+.shape .rounded-square:hover{
+    background-color: sienna;
+    border-radius: 30%;
+}
+
+.shape .circle{
+    width: 100px;
+    height: 100px;
+    transition: all 0.3s ease;
+    background-color: tomato;
+    border-radius: 50%;
+}
+
+.shape .circle:hover{
+    background-color: orangered;
+}

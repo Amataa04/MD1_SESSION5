@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; 
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+
+}
+
+.content{
+    width: 50%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    background-color: lightgray;
+    font-size: 25px;
+    font-weight: bold;
+    color: greenyellow;
+}
+
+.content p{
+    display: inline-block;
+    padding-left: 300px;
+    animation: content 10s linear infinite;
+}
+
+@keyframes content{
+    0%{
+        transform: translateX(-100%);
+    }
+
+
+    100%{
+        transform: translateX(20%);
+    }
+}

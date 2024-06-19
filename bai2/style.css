@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.container{
+    background-color: rgb(200, 231, 241);
+    padding: 40px 150px 40px 50px;
+}
+
+.container ul{
+    list-style-type: circle;
+    cursor: pointer;
+}
+
+.container ul li:hover{
+    color: red;
+}
